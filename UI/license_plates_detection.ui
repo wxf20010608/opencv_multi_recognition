@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1110</width>
+    <height>867</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>451</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <row>
+    <property name="text">
+     <string>车牌01</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌02</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌03</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌04</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌05</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌06</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌07</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌08</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌09</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌10</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌11</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌12</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌13</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>车牌14</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>车牌号</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>类型</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>状态</string>
+    </property>
+   </column>
+   <item row="9" column="0">
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="foreground">
+     <brush brushstyle="NoBrush">
+      <color alpha="255">
+       <red>170</red>
+       <green>0</green>
+       <blue>127</blue>
+      </color>
+     </brush>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>630</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(239, 255, 242);</string>
+   </property>
+   <property name="text">
+    <string>上传文件夹</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>630</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(239, 255, 242);</string>
+   </property>
+   <property name="text">
+    <string>上传图片</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>720</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(239, 255, 242);</string>
+   </property>
+   <property name="text">
+    <string>识别车牌</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>20</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌01</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>20</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌02</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>140</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌03</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>140</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌04</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>260</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌05</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>260</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌06</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>380</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌07</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>380</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌08</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>500</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌09</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>500</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>620</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌11</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>620</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌12</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>740</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌13</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>740</y>
+     <width>171</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>车牌14</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>720</y>
+     <width>101</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(239, 255, 242);</string>
+   </property>
+   <property name="text">
+    <string>返回主界面</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
